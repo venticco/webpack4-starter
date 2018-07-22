@@ -1,7 +1,7 @@
 {
-  "name": "snake",
+  "name": "base",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic webpack4 boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
@@ -10,14 +10,15 @@
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
+  "private": true,
   "browserslist": [
     "last 2 versions",
     "not ie 11",
     "not op_mini all",
     "not dead"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "krzysztof.jung@gmail.com",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.0.1",
     "babel-core": "^6.26.3",
